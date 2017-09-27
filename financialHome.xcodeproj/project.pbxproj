@@ -12,6 +12,10 @@
 		0D5AEBDA1F7B1C0F0012D42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AEBD81F7B1C0F0012D42B /* Main.storyboard */; };
 		0D5AEBDC1F7B1C0F0012D42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AEBDB1F7B1C0F0012D42B /* Assets.xcassets */; };
 		0D5AEBDF1F7B1C0F0012D42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AEBDD1F7B1C0F0012D42B /* LaunchScreen.storyboard */; };
+		0D5AEBE71F7B21F40012D42B /* NewCustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */; };
+		0D5AEBE91F7B22300012D42B /* ListMonthCustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */; };
+		0D5AEBEB1F7B22C10012D42B /* Custo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBEA1F7B22C10012D42B /* Custo.swift */; };
+		FEED70C1FF374E97F66A7DCE /* Pods_financialHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BDB5B5B44ED935DE95FA0 /* Pods_financialHome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,20 @@
 		0D5AEBDB1F7B1C0F0012D42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5AEBDE1F7B1C0F0012D42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5AEBE01F7B1C0F0012D42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustoViewController.swift; sourceTree = "<group>"; };
+		0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMonthCustoViewController.swift; sourceTree = "<group>"; };
+		0D5AEBEA1F7B22C10012D42B /* Custo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custo.swift; sourceTree = "<group>"; };
+		0D5AEBEC1F7B26BD0012D42B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DBCE7D31F7B340B000A243E /* FirebaseCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseCore; path = Pods/FirebaseCore; sourceTree = "<group>"; };
+		0DBCE7D41F7B340B000A243E /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Firebase; path = Pods/Firebase; sourceTree = "<group>"; };
+		0DBCE7D51F7B340B000A243E /* FirebaseAnalytics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseAnalytics; path = Pods/FirebaseAnalytics; sourceTree = "<group>"; };
+		0DBCE7D61F7B340B000A243E /* FirebaseDatabase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseDatabase; path = Pods/FirebaseDatabase; sourceTree = "<group>"; };
+		0DBCE7D71F7B340B000A243E /* FirebaseMessaging */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseMessaging; path = Pods/FirebaseMessaging; sourceTree = "<group>"; };
+		0DBCE7D81F7B340B000A243E /* FirebaseInstanceID */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseInstanceID; path = Pods/FirebaseInstanceID; sourceTree = "<group>"; };
+		0DBCE7D91F7B340B000A243E /* GoogleToolboxForMac */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleToolboxForMac; path = Pods/GoogleToolboxForMac; sourceTree = "<group>"; };
+		1F38DFA74C1B892D6B768550 /* Pods-financialHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financialHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-financialHome/Pods-financialHome.release.xcconfig"; sourceTree = "<group>"; };
+		373BDB5B5B44ED935DE95FA0 /* Pods_financialHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_financialHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD568AA2D84A3A3EF55AD6F /* Pods-financialHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financialHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-financialHome/Pods-financialHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEED70C1FF374E97F66A7DCE /* Pods_financialHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				0D5AEBD31F7B1C0F0012D42B /* financialHome */,
 				0D5AEBD21F7B1C0F0012D42B /* Products */,
+				11FE16CB604884946C6989E5 /* Frameworks */,
+				C2824725D19631D4172072E7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,42 @@
 		0D5AEBD31F7B1C0F0012D42B /* financialHome */ = {
 			isa = PBXGroup;
 			children = (
+				0D5AEBEC1F7B26BD0012D42B /* GoogleService-Info.plist */,
 				0D5AEBD41F7B1C0F0012D42B /* AppDelegate.swift */,
 				0D5AEBD61F7B1C0F0012D42B /* ViewController.swift */,
 				0D5AEBD81F7B1C0F0012D42B /* Main.storyboard */,
 				0D5AEBDB1F7B1C0F0012D42B /* Assets.xcassets */,
 				0D5AEBDD1F7B1C0F0012D42B /* LaunchScreen.storyboard */,
 				0D5AEBE01F7B1C0F0012D42B /* Info.plist */,
+				0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */,
+				0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */,
+				0D5AEBEA1F7B22C10012D42B /* Custo.swift */,
 			);
 			path = financialHome;
+			sourceTree = "<group>";
+		};
+		11FE16CB604884946C6989E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCE7D41F7B340B000A243E /* Firebase */,
+				0DBCE7D51F7B340B000A243E /* FirebaseAnalytics */,
+				0DBCE7D31F7B340B000A243E /* FirebaseCore */,
+				0DBCE7D61F7B340B000A243E /* FirebaseDatabase */,
+				0DBCE7D81F7B340B000A243E /* FirebaseInstanceID */,
+				0DBCE7D71F7B340B000A243E /* FirebaseMessaging */,
+				0DBCE7D91F7B340B000A243E /* GoogleToolboxForMac */,
+				373BDB5B5B44ED935DE95FA0 /* Pods_financialHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2824725D19631D4172072E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD568AA2D84A3A3EF55AD6F /* Pods-financialHome.debug.xcconfig */,
+				1F38DFA74C1B892D6B768550 /* Pods-financialHome.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5AEBE31F7B1C0F0012D42B /* Build configuration list for PBXNativeTarget "financialHome" */;
 			buildPhases = (
+				00CE159ED3B2E854809C4638 /* [CP] Check Pods Manifest.lock */,
 				0D5AEBCD1F7B1C0F0012D42B /* Sources */,
 				0D5AEBCE1F7B1C0F0012D42B /* Frameworks */,
 				0D5AEBCF1F7B1C0F0012D42B /* Resources */,
+				B143B9250D233EBCEE6EACF2 /* [CP] Embed Pods Frameworks */,
+				0D6DBFCB4F5DD62D5FED7823 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +183,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00CE159ED3B2E854809C4638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-financialHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D6DBFCB4F5DD62D5FED7823 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-financialHome/Pods-financialHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B143B9250D233EBCEE6EACF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-financialHome/Pods-financialHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-financialHome/Pods-financialHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D5AEBCD1F7B1C0F0012D42B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5AEBE71F7B21F40012D42B /* NewCustoViewController.swift in Sources */,
 				0D5AEBD71F7B1C0F0012D42B /* ViewController.swift in Sources */,
+				0D5AEBEB1F7B22C10012D42B /* Custo.swift in Sources */,
 				0D5AEBD51F7B1C0F0012D42B /* AppDelegate.swift in Sources */,
+				0D5AEBE91F7B22300012D42B /* ListMonthCustoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +387,25 @@
 		};
 		0D5AEBE41F7B1C0F0012D42B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD568AA2D84A3A3EF55AD6F /* Pods-financialHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BFSL4J75W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Protobuf\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/leveldb-library\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseMessaging/Frameworks\"",
+				);
 				INFOPLIST_FILE = financialHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jonathan.financialHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +416,13 @@
 		};
 		0D5AEBE51F7B1C0F0012D42B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F38DFA74C1B892D6B768550 /* Pods-financialHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BFSL4J75W;
 				INFOPLIST_FILE = financialHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jonathan.financialHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
