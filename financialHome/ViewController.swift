@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource,UISearchBarDelegate  {
     var months = ["JAN", "FEV","MAR","ABR","JUN","JUL","AGO","SET","OUT","NOV","DEC"]
     var filtered = [String]()
     var searchActive : Bool = false

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cSV-Hz-5A4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -103,7 +104,7 @@
                                     <navigationItem title="Adicionar Gasto" id="3Ha-4f-EHL"/>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3F-c2-KRm">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Custo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3F-c2-KRm">
                                 <rect key="frame" x="16" y="102" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -127,7 +128,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AYH-ev-3II">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Onde" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AYH-ev-3II">
                                 <rect key="frame" x="16" y="393" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -140,13 +141,13 @@
                                     <action selector="addCusto:" destination="cSV-Hz-5A4" eventType="touchUpInside" id="gEg-CV-Hr0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Observaçao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71q-Wy-t1h">
-                                <rect key="frame" x="16" y="431" width="92" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Observaçao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71q-Wy-t1h">
+                                <rect key="frame" x="16" y="431" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgj-3W-bD7">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Obs" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgj-3W-bD7">
                                 <rect key="frame" x="16" y="460" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -159,7 +160,6 @@
                             <constraint firstItem="71q-Wy-t1h" firstAttribute="leading" secondItem="dgj-3W-bD7" secondAttribute="leading" id="3nQ-Tv-yEr"/>
                             <constraint firstItem="iEM-Fj-H51" firstAttribute="trailing" secondItem="dgj-3W-bD7" secondAttribute="trailing" constant="16" id="4fj-Tz-77I"/>
                             <constraint firstItem="LHp-DT-Kct" firstAttribute="centerX" secondItem="AYH-ev-3II" secondAttribute="centerX" id="9vB-ii-WZ6"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="71q-Wy-t1h" secondAttribute="trailing" constant="20" symbolic="YES" id="CGA-X4-K77"/>
                             <constraint firstItem="XKg-A0-acu" firstAttribute="leading" secondItem="iEM-Fj-H51" secondAttribute="leading" constant="16" id="CtU-gs-7fK"/>
                             <constraint firstItem="AYH-ev-3II" firstAttribute="top" secondItem="J2H-hc-keE" secondAttribute="bottom" constant="8" id="LcQ-ZP-Y3w"/>
                             <constraint firstItem="dgj-3W-bD7" firstAttribute="leading" secondItem="iEM-Fj-H51" secondAttribute="leading" constant="16" id="PIw-ys-6ML"/>
@@ -198,10 +198,10 @@
             </objects>
             <point key="canvasLocation" x="900" y="445.72713643178412"/>
         </scene>
-        <!--List Month Custo View Controller-->
+        <!--View Controller-->
         <scene sceneID="trE-2X-7zp">
             <objects>
-                <viewController id="4Yd-BI-sTh" customClass="ListMonthCustoViewController" customModule="financialHome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4Yd-BI-sTh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xD4-Iw-ZDB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

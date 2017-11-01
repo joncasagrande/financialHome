@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>542421991265-ikp3jivl2gj0tinefmau69ndnln214n0.apps.googleusercontent.com</string>
+	<string>316576488426-pj18mter2tq9c6jq3g90h7t69l31nknj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.542421991265-ikp3jivl2gj0tinefmau69ndnln214n0</string>
+	<string>com.googleusercontent.apps.316576488426-pj18mter2tq9c6jq3g90h7t69l31nknj</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCKvDUPWVVcmOY9hpNmGAioN46G8vt2m6A</string>
+	<string>AIzaSyDSRVz0LZTKdQp76EnGq-ZgARzPKUfNbPg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>542421991265</string>
+	<string>316576488426</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Jonathan.financialHome</string>
 	<key>PROJECT_ID</key>
-	<string>financialhome-af300</string>
+	<string>financialhome-a9493</string>
 	<key>STORAGE_BUCKET</key>
-	<string>financialhome-af300.appspot.com</string>
+	<string>financialhome-a9493.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:542421991265:ios:bf7e5f4208d8cf56</string>
+	<string>1:316576488426:ios:bf7e5f4208d8cf56</string>
 	<key>DATABASE_URL</key>
-	<string>https://financialhome-af300.firebaseio.com</string>
+	<string>https://financialhome-a9493.firebaseio.com</string>
 </dict>
 </plist>

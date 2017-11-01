@@ -13,8 +13,8 @@
 		0D5AEBDC1F7B1C0F0012D42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AEBDB1F7B1C0F0012D42B /* Assets.xcassets */; };
 		0D5AEBDF1F7B1C0F0012D42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5AEBDD1F7B1C0F0012D42B /* LaunchScreen.storyboard */; };
 		0D5AEBE71F7B21F40012D42B /* NewCustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */; };
-		0D5AEBE91F7B22300012D42B /* ListMonthCustoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */; };
 		0D5AEBEB1F7B22C10012D42B /* Custo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AEBEA1F7B22C10012D42B /* Custo.swift */; };
+		0DCDA56E1FA9E3580091ACBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDA56D1FA9E3580091ACBF /* GoogleService-Info.plist */; };
 		FEED70C1FF374E97F66A7DCE /* Pods_financialHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BDB5B5B44ED935DE95FA0 /* Pods_financialHome.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,6 @@
 		0D5AEBDE1F7B1C0F0012D42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5AEBE01F7B1C0F0012D42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustoViewController.swift; sourceTree = "<group>"; };
-		0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMonthCustoViewController.swift; sourceTree = "<group>"; };
 		0D5AEBEA1F7B22C10012D42B /* Custo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custo.swift; sourceTree = "<group>"; };
 		0D5AEBEC1F7B26BD0012D42B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0DBCE7D31F7B340B000A243E /* FirebaseCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseCore; path = Pods/FirebaseCore; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		0DBCE7D71F7B340B000A243E /* FirebaseMessaging */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseMessaging; path = Pods/FirebaseMessaging; sourceTree = "<group>"; };
 		0DBCE7D81F7B340B000A243E /* FirebaseInstanceID */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FirebaseInstanceID; path = Pods/FirebaseInstanceID; sourceTree = "<group>"; };
 		0DBCE7D91F7B340B000A243E /* GoogleToolboxForMac */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleToolboxForMac; path = Pods/GoogleToolboxForMac; sourceTree = "<group>"; };
+		0DCDA56D1FA9E3580091ACBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1F38DFA74C1B892D6B768550 /* Pods-financialHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financialHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-financialHome/Pods-financialHome.release.xcconfig"; sourceTree = "<group>"; };
 		373BDB5B5B44ED935DE95FA0 /* Pods_financialHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_financialHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD568AA2D84A3A3EF55AD6F /* Pods-financialHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financialHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-financialHome/Pods-financialHome.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		0D5AEBC81F7B1C0F0012D42B = {
 			isa = PBXGroup;
 			children = (
+				0DA7D3AD1F7BC2E10045E69B /* Resources */,
 				0D5AEBD31F7B1C0F0012D42B /* financialHome */,
 				0D5AEBD21F7B1C0F0012D42B /* Products */,
 				11FE16CB604884946C6989E5 /* Frameworks */,
@@ -75,7 +76,7 @@
 		0D5AEBD31F7B1C0F0012D42B /* financialHome */ = {
 			isa = PBXGroup;
 			children = (
-				0D5AEBEC1F7B26BD0012D42B /* GoogleService-Info.plist */,
+				0DCDA56D1FA9E3580091ACBF /* GoogleService-Info.plist */,
 				0D5AEBD41F7B1C0F0012D42B /* AppDelegate.swift */,
 				0D5AEBD61F7B1C0F0012D42B /* ViewController.swift */,
 				0D5AEBD81F7B1C0F0012D42B /* Main.storyboard */,
@@ -83,10 +84,17 @@
 				0D5AEBDD1F7B1C0F0012D42B /* LaunchScreen.storyboard */,
 				0D5AEBE01F7B1C0F0012D42B /* Info.plist */,
 				0D5AEBE61F7B21F40012D42B /* NewCustoViewController.swift */,
-				0D5AEBE81F7B22300012D42B /* ListMonthCustoViewController.swift */,
 				0D5AEBEA1F7B22C10012D42B /* Custo.swift */,
 			);
 			path = financialHome;
+			sourceTree = "<group>";
+		};
+		0DA7D3AD1F7BC2E10045E69B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D5AEBEC1F7B26BD0012D42B /* GoogleService-Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		11FE16CB604884946C6989E5 /* Frameworks */ = {
@@ -176,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5AEBDF1F7B1C0F0012D42B /* LaunchScreen.storyboard in Resources */,
+				0DCDA56E1FA9E3580091ACBF /* GoogleService-Info.plist in Resources */,
 				0D5AEBDC1F7B1C0F0012D42B /* Assets.xcassets in Resources */,
 				0D5AEBDA1F7B1C0F0012D42B /* Main.storyboard in Resources */,
 			);
@@ -224,6 +233,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-financialHome/Pods-financialHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -231,6 +241,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -252,7 +263,6 @@
 				0D5AEBD71F7B1C0F0012D42B /* ViewController.swift in Sources */,
 				0D5AEBEB1F7B22C10012D42B /* Custo.swift in Sources */,
 				0D5AEBD51F7B1C0F0012D42B /* AppDelegate.swift in Sources */,
-				0D5AEBE91F7B22300012D42B /* ListMonthCustoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
