@@ -28,13 +28,13 @@ class NewCustoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func addCusto(_ sender: Any) {
+    func addCusto(){
         let preco: Double! =  (custoTV.text! as NSString).doubleValue
         let custo = Custo(preco: preco! ,
-        date: dataPicker.date,
-        local: aondeTV.text!,
-        obs: obsTV.text!)
-
+                          date: dataPicker.date,
+                          local: aondeTV.text!,
+                          obs: obsTV.text!)
+        
         var ref: DatabaseReference!
         
         ref = Database.database().reference()
@@ -42,6 +42,10 @@ class NewCustoViewController: UIViewController {
         //ref.child("custo").setValue([custo.date.description: custo])
         ref.child("users").child("bruna").child(custo.date.description).setValue(custo.toJson())
         clearForm()
+    }
+    
+    @IBAction func addCusto(_ sender: Any) {
+        addCusto()
     }
     func clearForm(){
         custoTV.text = ""
